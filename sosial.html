@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Sistem Informasi Statistik - Kota Administrasi Jakarta Timur</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #b3cfff;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      border: 3px solid #002956;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #000;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    header h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .logo {
+      width: 80px;
+      float: left;
+      margin-right: 10px;
+    }
+    .sidebar {
+      float: left;
+      width: 25%;
+      border-right: 1px solid #000;
+      padding-right: 10px;
+    }
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .content {
+      float: right;
+      width: 70%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 2px solid #000;
+      padding: 10px 14px;
+      text-align: center;
+    }
+    th {
+      background-color: #d1e8fc;
+    }
+    footer {
+      clear: both;
+      text-align: center;
+      border-top: 2px solid #000;
+      margin-top: 20px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="logo jakarta timur.png" width="24" height="51" alt="Logo Jakarta Timur" class="logo">
+      <h1>SISTEM INFORMASI STATISTIK</h1>
+      <h2>KOTA ADMINISTRASI JAKARTA TIMUR</h2>
+    </header>
+
+    <div class="sidebar">
+      <ul>
+        <li><a href="penduduk.html">Penduduk</a></li>
+        <li><a href="geografi.html">Geografi dan Iklim</a></li>
+        <li><a href="pemerintahan.html">Pemerintahan</a></li>
+        <li><a href="sosial.html">Sosial</a></li>
+        <li><a href="industri.html">Industri</a></li>
+        <li><a href="pariwisata.html">Pariwisata</a></li>
+      </ul>
+    </div>
+
+    <div id="sidebar-container"></div>
+
+    <div class="content">
+      <h3>Kondisi Sosial Kota Administrasi Jakarta Timur</h3>
+      <p>
+        Kondisi sosial di Jakarta Timur mencerminkan tingkat kesejahteraan masyarakat yang cukup baik, 
+        dengan akses terhadap pendidikan, kesehatan, dan pelayanan sosial yang terus meningkat. 
+        Pemerintah Kota berupaya menurunkan tingkat kemiskinan dan meningkatkan kualitas hidup melalui berbagai program sosial dan kemanusiaan.
+      </p>
+
+      <table>
+        <tr>
+          <th>No</th>
+          <th>Indikator Sosial</th>
+          <th>Satuan</th>
+          <th>Tahun 2024</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Jumlah Penduduk Miskin</td>
+          <td>Jiwa</td>
+          <td>91.200</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Tingkat Partisipasi Sekolah (7–24 tahun)</td>
+          <td>%</td>
+          <td>96,5</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Jumlah Fasilitas Kesehatan</td>
+          <td>Unit</td>
+          <td>285</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Angka Harapan Hidup</td>
+          <td>Tahun</td>
+          <td>74,8</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Tingkat Pengangguran Terbuka</td>
+          <td>%</td>
+          <td>5,4</td>
+        </tr>
+      </table>
+
+      <p style="margin-top:20px;">
+        <center>Sumber data: Badan Pusat Statistik (BPS) Kota Administrasi Jakarta Timur, 2024.</center>
+      </p>
+    </div>
+
+    <footer>
+      <p>Pemerintah Kota Administrasi Jakarta Timur</p>
+      <p>Jl. Dr. Sumarno, Cakung, Jakarta Timur, DKI Jakarta | Telp: (021) 4800011</p>
+    </footer>
+  </div>
+</body>
+</html>

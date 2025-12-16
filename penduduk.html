@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Sistem Informasi Statistik - Kota Administrasi Jakarta Timur</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #b3cfff;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      border: 3px solid #002956;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #000;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    header h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .logo {
+      width: 80px;
+      float: left;
+      margin-right: 10px;
+    }
+    .sidebar {
+      float: left;
+      width: 25%;
+      border-right: 1px solid #000;
+      padding-right: 10px;
+    }
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .content {
+      float: right;
+      width: 70%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 2px solid #000;
+      padding: 10px 14px;
+      text-align: center;
+    }
+    th {
+      background-color: #d1e8fc;
+    }
+    footer {
+      clear: both;
+      text-align: center;
+      border-top: 2px solid #000;
+      margin-top: 20px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="logo jakarta timur.png" width="24" height="51" alt="Logo Jakarta Timur" class="logo">
+      <h1>SISTEM INFORMASI STATISTIK</h1>
+      <h2>KOTA ADMINISTRASI JAKARTA TIMUR</h2>
+    </header>
+
+    <div class="sidebar">
+      <ul>
+        <li><a href="penduduk.html">Penduduk</a></li>
+        <li><a href="geografi.html">Geografi dan Iklim</a></li>
+        <li><a href="pemerintahan.html">Pemerintahan</a></li>
+        <li><a href="sosial.html">Sosial</a></li>
+        <li><a href="industri.html">Industri</a></li>
+        <li><a href="pariwisata.html">Pariwisata</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h3>Kependudukan Kota Administrasi Jakarta Timur</h3>
+      <p>
+        Kota Administrasi Jakarta Timur merupakan wilayah dengan jumlah penduduk terbesar di Provinsi DKI Jakarta.
+        Komposisi penduduknya terdiri dari berbagai kelompok umur, jenis kelamin, dan latar belakang sosial ekonomi yang beragam.
+        Pertumbuhan penduduk dipengaruhi oleh urbanisasi, migrasi, dan tingkat kelahiran yang relatif tinggi.
+      </p>
+
+      <table>
+        <tr>
+          <th>No</th>
+          <th>Indikator Kependudukan</th>
+          <th>Satuan</th>
+          <th>Tahun 2024</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Jumlah Penduduk</td>
+          <td>Jiwa</td>
+          <td>3.225.000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Laki-laki</td>
+          <td>Jiwa</td>
+          <td>1.630.000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Perempuan</td>
+          <td>Jiwa</td>
+          <td>1.595.000</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Rasio Jenis Kelamin</td>
+          <td>%</td>
+          <td>102,2</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Laju Pertumbuhan Penduduk</td>
+          <td>%</td>
+          <td>0,82</td>
+        </tr>
+      </table>
+
+      <p style="margin-top:20px;">
+       <center>Sumber data: Badan Pusat Statistik (BPS) Kota Administrasi Jakarta Timur.</center>
+      </p>
+    </div>
+
+    <div class="content">
+      <h3 style="text-align:center;">Tabel Kependudukan per Kecamatan</h3>
+      <table>
+        <tr>
+          <th>Kecamatan</th>
+          <th>Luas Wilayah (km²)</th>
+          <th>Jumlah Penduduk (jiwa)</th>
+          <th>Kepadatan Penduduk (jiwa/km²)</th>
+        </tr>
+        <tr><td>Cakung</td><td>42.30</td><td>520,340</td><td>12,302</td></tr>
+        <tr><td>Ciracas</td><td>16.08</td><td>266,000</td><td>16,537</td></tr>
+        <tr><td>Cipayung</td><td>19.20</td><td>245,000</td><td>12,760</td></tr>
+        <tr><td>Duren Sawit</td><td>22.68</td><td>315,000</td><td>13,890</td></tr>
+        <tr><td>Jatinegara</td><td>14.60</td><td>297,000</td><td>20,342</td></tr>
+        <tr><td>Kramat Jati</td><td>13.49</td><td>282,000</td><td>20,908</td></tr>
+        <tr><td>Makasar</td><td>21.80</td><td>218,000</td><td>10,000</td></tr>
+        <tr><td>Matraman</td><td>8.26</td><td>164,000</td><td>19,858</td></tr>
+        <tr><td>Pasar Rebo</td><td>12.85</td><td>200,000</td><td>15,560</td></tr>
+        <tr><td>Pulogadung</td><td>14.56</td><td>268,000</td><td>18,409</td></tr>
+      </table>
+
+      <p style="margin-top:20px;">
+        <center>Sumber data: Badan Pusat Statistik Kota Administrasi Jakarta Timur, 2024.</center>
+      </p>
+    </div>
+
+    <footer>
+      <p>Pemerintah Kota Administrasi Jakarta Timur</p>
+      <p>Jl. Dr. Sumarno, Cakung, Jakarta Timur, DKI Jakarta | Telp: (021) 4800011</p>
+    </footer>
+  </div>
+</body>
+</html>

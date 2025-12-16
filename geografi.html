@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Sistem Informasi Statistik - Kota Administrasi Jakarta Timur</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #b3cfff;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      border: 3px solid #002956;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #000;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    header h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .logo {
+      width: 80px;
+      float: left;
+      margin-right: 10px;
+    }
+    .sidebar {
+      float: left;
+      width: 25%;
+      border-right: 1px solid #000;
+      padding-right: 10px;
+    }
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .content {
+      float: right;
+      width: 70%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 2px solid #000;
+      padding: 10px 14px;
+      text-align: center;
+    }
+    th {
+      background-color: #d1e8fc;
+    }
+    footer {
+      clear: both;
+      text-align: center;
+      border-top: 2px solid #000;
+      margin-top: 20px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="logo jakarta timur.png" width="24" height="51" alt="Logo Jakarta Timur" class="logo">
+      <h1>SISTEM INFORMASI STATISTIK</h1>
+      <h2>KOTA ADMINISTRASI JAKARTA TIMUR</h2>
+    </header>
+
+    <div class="sidebar">
+      <ul>
+        <li><a href="penduduk.html">Penduduk</a></li>
+        <li><a href="geografi.html">Geografi dan Iklim</a></li>
+        <li><a href="pemerintahan.html">Pemerintahan</a></li>
+        <li><a href="sosial.html">Sosial</a></li>
+        <li><a href="industri.html">Industri</a></li>
+        <li><a href="pariwisata.html">Pariwisata</a></li>
+      </ul>
+    </div>
+
+    <div id="sidebar-container"></div>
+
+    <div class="content">
+      <h3>Geografi dan Iklim Kota Administrasi Jakarta Timur</h3>
+      <p>
+        Kota Administrasi Jakarta Timur merupakan wilayah terluas di Provinsi DKI Jakarta dengan luas sekitar <b>187,73 km²</b>. 
+        Wilayah ini berbatasan langsung dengan Kota Bekasi di sebelah timur, Jakarta Selatan di sebelah selatan, 
+        dan Jakarta Utara di sebelah utara. Secara geografis, wilayah Jakarta Timur memiliki ketinggian antara 0 hingga 25 meter di atas permukaan laut.
+      </p>
+      <p>
+        Berdasarkan data iklim, wilayah ini beriklim tropis dengan dua musim utama yaitu musim hujan dan musim kemarau.
+        Suhu udara rata-rata berkisar antara <b>26°C–33°C</b> dengan tingkat kelembaban tinggi serta curah hujan tahunan mencapai <b>2.000–2.500 mm</b>.
+      </p>
+
+      <table>
+        <tr>
+          <th>Parameter</th>
+          <th>Keterangan</th>
+        </tr>
+        <tr>
+          <td>Luas Wilayah</td>
+          <td>187,73 km²</td>
+        </tr>
+        <tr>
+          <td>Batas Utara</td>
+          <td>Kota Administrasi Jakarta Utara</td>
+        </tr>
+        <tr>
+          <td>Batas Selatan</td>
+          <td>Kota Administrasi Jakarta Selatan</td>
+        </tr>
+        <tr>
+          <td>Batas Barat</td>
+          <td>Kota Administrasi Jakarta Pusat</td>
+        </tr>
+        <tr>
+          <td>Batas Timur</td>
+          <td>Kota Bekasi</td>
+        </tr>
+        <tr>
+          <td>Suhu Rata-rata</td>
+          <td>26°C – 33°C</td>
+        </tr>
+        <tr>
+          <td>Curah Hujan Tahunan</td>
+          <td>2.000 – 2.500 mm/tahun</td>
+        </tr>
+      </table>
+
+      <p style="margin-top:20px;">
+        <center>Sumber data: Badan Pusat Statistik Kota Administrasi Jakarta Timur, 2024.</center>
+      </p>
+    </div>
+
+    <footer>
+      <p>Pemerintah Kota Administrasi Jakarta Timur</p>
+      <p>Jl. Dr. Sumarno, Cakung, Jakarta Timur, DKI Jakarta | Telp: (021) 4800011</p>
+    </footer>
+  </div>
+</body>
+</html>
